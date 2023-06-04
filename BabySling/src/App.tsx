@@ -8,7 +8,7 @@ import AccountMenu from './Pages/Account'
 import RegistrationForm from './comp/forms/registerform'
 import RegisterPage from './Pages/Register'
 import './App.css'
-
+import Card from './comp/etc/productcard'
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
     <main className="w-full">
       <Header/>
       {/* <SigninPage/> */}
-      <RegisterPage/>
+      <Card/>
       <Footer/>
 
     </main>
