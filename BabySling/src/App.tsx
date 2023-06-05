@@ -9,6 +9,7 @@ import RegistrationForm from './comp/forms/registerform'
 import RegisterPage from './Pages/Register'
 import './App.css'
 import Card from './comp/etc/productcard'
+import ShoppingCart from './Pages/Cart'
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
     <main className="w-full">
       <Header/>
       {/* <SigninPage/> */}
-      <Card/>
+      <ShoppingCart/>
       <Footer/>
 
     </main>
